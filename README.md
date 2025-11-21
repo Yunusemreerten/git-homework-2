@@ -219,6 +219,9 @@ z3) Sent final repo URL & this report to teacher
 3. Screenshots
   Commit History
 
+    <img width="1355" height="908" alt="image" src="https://github.com/user-attachments/assets/5159d96e-dac2-438c-ac00-d44f8535a191" />
+
+
    <img width="702" height="232" alt="image" src="https://github.com/user-attachments/assets/0e4ee0b2-792a-42e4-a400-e336b3d576c7" />
    
   Git Blame Output
