@@ -26,6 +26,7 @@ public class GitHomeworkProject {
 
         System.out.println("After sort:");
         System.out.println(Arrays.toString(numbers));
+        System.out.println("Line from ME");
     }
 
     public static void bubbleSort(int[] arr) {
