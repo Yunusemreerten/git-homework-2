@@ -14,7 +14,6 @@ public class GitHomeworkProject {
         int[] numbers = new int[5];
         Random random = new Random();
 
-        // initialize with random values
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(100);
         }
@@ -22,11 +21,25 @@ public class GitHomeworkProject {
         System.out.println("Before sort:");
         System.out.println(Arrays.toString(numbers));
 
-        // sort
-        Arrays.sort(numbers);
+        // sort using bubble sort
+        bubbleSort(numbers);
 
         System.out.println("After sort:");
         System.out.println(Arrays.toString(numbers));
     }
-}
 
+    public static void bubbleSort(int[] arr) {
+        boolean swapped;
+        do {
+            swapped = false;
+            for (int i = 0; i < arr.length - 1; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    int temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    swapped = true;
+                }
+            }
+        } while (swapped);
+    }
+}
