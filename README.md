@@ -1,9 +1,13 @@
 GIT Homework 2 – Report
 
 Student: Yunus Emre Erten
+
 Course: GIT
+
 Date: 04.12.2025
+
 Repository URL:
+
 https://github.com/Yunusemreerten/git-homework-2
 
 1. Environment
