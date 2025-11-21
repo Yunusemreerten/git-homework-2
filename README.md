@@ -19,61 +19,69 @@
 # 2. Tasks Completed (a → z3)
 
 Below are all required tasks from the assignment, completed step-by-step with screenshots and explanations.
-
+---
 ## a) Created remote repository
 An empty public GitHub repository named **git-homework-2** was created.
 
 ---
-
+---
 ## b) Cloned the empty repository
 
   git clone https://github.com/Yunusemreerten/git-homework-2.git
-
-c) Created a local project in the cloned repo
+---
+### **c) Created a Java project inside the repo**
+NetBeans → New Project → Java Application → saved directly inside cloned folder.
 
   NetBeans → New Project → Java Application
 
   Project placed directly inside the cloned repository folder.
-
-d) Committed the empty Java project
+---
+### **d) Initial commit (empty project)**
   git add .
   git commit -m "Initial empty Java project"
   <img width="878" height="823" alt="2  commit" src="https://github.com/user-attachments/assets/2c828f4c-2640-4b43-8131-3e4ac924e1c8" />
 
-
-e) Added simple code (table creation & printing)
+---
+### **e) Added simple code (array creation & printing)**
 
   <img width="1876" height="958" alt="2  commit netbeans kodu" src="https://github.com/user-attachments/assets/d6b89731-a003-4f74-b354-4c03e66f4331" />
 
-
-f) Committed the change
+---
+### **f) Commit simple code**
   git add .
   git commit -m "Add basic table creation and print elements"
 
   <img width="799" height="144" alt="image" src="https://github.com/user-attachments/assets/a0f3f32a-a203-473f-8149-ecd015840f5e" />
 
 
-g) Added random initialization
+---
 
+### **g) Added random initialization**
   Used Random class to fill the array.
   <img width="1920" height="982" alt="3  commit netbeans kodu" src="https://github.com/user-attachments/assets/d43e090f-ed4e-4aef-a9dd-57385ecccf4c" />
 
+---
 
-h) Commit
+### **h) Commit**
   git commit -m "Initialize table with random values"
   <img width="749" height="354" alt="3  commit" src="https://github.com/user-attachments/assets/ca97aa4d-94c9-499d-9a18-32c322ca7782" />
+  
+---
 
-i) Added sorting code
+### **i) Added sorting (Arrays.sort)**
   <img width="1913" height="1009" alt="4 commit netbeans kodu" src="https://github.com/user-attachments/assets/ba477dab-ba46-410a-8bbb-f26ea42e11d1" />
 
   Used Arrays.sort(numbers);
+---
 
-j) Commit
+### **j) Commit**
+
   git commit -m "Sort table elements using Arrays.sort"
   <img width="771" height="339" alt="4  commit" src="https://github.com/user-attachments/assets/4c846eaa-9829-43d3-b053-1c66db9c69e7" />
 
+---
 
-k) Viewed commit history
+### **k) Viewed commit history**
   git log --oneline --graph
 
   <img width="579" height="138" alt="k adımı için geçmişe bakıyoruz" src="https://github.com/user-attachments/assets/6f4af6d4-3a58-4796-9c5f-b01a8e8d5b1c" />
@@ -88,8 +96,9 @@ Output included commits:
   Initialize with random values
 
   Sort elements
+---
 
-l) Viewed annotations (git blame)
+### **l) Viewed annotations (git blame)**
   git blame GitHomeworkProject.java
 
   <img width="571" height="359" alt="l adımı " src="https://github.com/user-attachments/assets/8c5f208e-704f-4bec-a8de-1fcd2af9154a" />
@@ -102,8 +111,8 @@ l) Viewed annotations (git blame)
   <img width="1115" height="911" alt="k adımı 2" src="https://github.com/user-attachments/assets/9d2c22f5-1570-46e3-8de3-44683a3ff8fb" />
 
 
-
-m) Checked out old commits
+---
+### **m) Checked out older revisions**
   git checkout 950cc62
   <img width="559" height="376" alt="M maddesi  different revision’a geçme (git checkout)" src="https://github.com/user-attachments/assets/7e4451bb-85b5-4354-b4fa-8270df1a4c2d" />
 
@@ -113,16 +122,18 @@ m) Checked out old commits
   Then returned:
 
   git checkout main
+---
 
-n) Added changes without committing
+### **n) Added changes without committing**
   <img width="1807" height="908" alt="N adımı için küçük bir değişiklik yaptık print(temporary change for revert test)" src="https://github.com/user-attachments/assets/6a2201a8-09ea-4d55-ad98-8f95d79c1e25" />
 
 
   Added a temporary print line.
 
   Verified using git status.
+---
 
-o) Reverted commit
+### **o) Reverted commit**
   <img width="861" height="45" alt="o maddesindeki cmd kodu" src="https://github.com/user-attachments/assets/ba83144d-80ee-47dc-8851-1d1598a0f6e3" />
 
   <img width="1877" height="913" alt="o maddesinin a şıkkını yaptık değşikliği geri aldık" src="https://github.com/user-attachments/assets/e08aae8b-5873-4f63-8a6e-1d277b13ec51" />
@@ -136,25 +147,32 @@ o) Reverted commit
 
   Editor opened → commit message confirmed.
   <img width="434" height="244" alt="o maddesinin b şıkkını üçüncu adımın devamı onay verdiğimiz için kaydetti dosyayı" src="https://github.com/user-attachments/assets/bfbfe80d-d15e-4897-8809-b894d698205f" />
+  
+---
+### **p) Pushed changes**
 
-p) Pushed all changes to remote
   git push origin main
 
   <img width="443" height="177" alt="p maddesi" src="https://github.com/user-attachments/assets/3f634115-75eb-466d-ad76-4eef12e4cb03" />
+  
+---
 
-r) Deleted local repo
+### **r) Deleted local repo**
 
   <img width="764" height="143" alt="r adımı repoyu sildim" src="https://github.com/user-attachments/assets/fba43d4a-6ffe-469d-b52a-cdaaa72a32c6" />
 
   Folder removed manually from Windows Explorer.
+  
+---
 
-s) Cloned the repo again
+### **s) Cloned repo again**
   git clone https://github.com/Yunusemreerten/git-homework-2.git
 
   <img width="656" height="242" alt="s adımıTekrardan git clone ile geri getirdim" src="https://github.com/user-attachments/assets/a030d496-f55c-4188-92ae-7477c9ddb3c9" />
 
+---
 
-t) Created tag/release
+### **t) Created tag/release**
 
   <img width="1905" height="741" alt="t maddesi için tag ekledim" src="https://github.com/user-attachments/assets/d276ad0e-a73f-42a0-82f6-19a5dae9b5ad" />
 
@@ -164,17 +182,24 @@ t) Created tag/release
   git checkout main
 
   <img width="573" height="404" alt="t maddesi Tag’e geçiş yap (checkout) yaptık ve sonra da tekrar maine döndük " src="https://github.com/user-attachments/assets/d7be7bc1-c70a-4143-ba38-35009f515180" />
+  
+---
 
-u) Created a new branch
+### **u) Created new branch**
   git checkout -b better-sorting
 
   <img width="557" height="233" alt="u ve w adımları" src="https://github.com/user-attachments/assets/2b81b6a0-caa1-49c0-a147-e3d42cc500a0" />
+  
+---
 
-w) Switched between branches
+### **w) Switched branches**
+
   git checkout main
   git merge better-sorting
+  
+---
 
-x) Improved code in branch
+### **x) Improved code (Bubble Sort)**
 
   Added new sorting algorithm (bubble sort).
 
@@ -184,27 +209,35 @@ x) Improved code in branch
 
   <img width="716" height="160" alt="x adımı commit etme kodu" src="https://github.com/user-attachments/assets/c2b93faa-4244-45a0-b483-dfe3737c517f" />
 
+---
 
-y) Merged new branch into master
+### **y) Merged branch into main**
+
   git checkout main
   git merge better-sorting
   git push origin main
 
   <img width="588" height="361" alt="y adımı  Branch’i main’e merge et" src="https://github.com/user-attachments/assets/88a3c851-735f-43dd-b9c5-066a7dba3d76" />
 
-z) Shared repo with friend
+---
+
+### **z) Shared repo with collaborator**
 
   Added friend zelihainan as collaborator on GitHub.
 
   <img width="1831" height="889" alt="z adımı için arkadaş ekleme" src="https://github.com/user-attachments/assets/a445c3a7-15e8-4708-8504-148fe8e614f4" />
 
-z1) Produced a merge conflict
+---
+
+### **z1) Produced merge conflict**
 
   Both changed the same lines:
 
   <img width="1906" height="884" alt="z adımı z2 conflig oluştu" src="https://github.com/user-attachments/assets/11621748-0c10-4365-911d-fe0fb1c7f0a2" />
 
-z2) Solved conflict
+---
+
+### **z2) Solved merge conflict**
 
   Resolved manually into:
 
@@ -217,17 +250,20 @@ z2) Solved conflict
   git commit -m "Resolve merge conflict"
   git push
 
-z3) Sent final repo URL & this report to teacher
+---
 
-3. Screenshots
-  Commit History
+### **z3) Sent repo URL + report**
+
+## 3. Screenshots Section
+
+  ### **Commit History**
 
    <img width="1355" height="908" alt="image" src="https://github.com/user-attachments/assets/5159d96e-dac2-438c-ac00-d44f8535a191" />
 
 
    <img width="702" height="232" alt="image" src="https://github.com/user-attachments/assets/0e4ee0b2-792a-42e4-a400-e336b3d576c7" />
    
-  Git Blame Output
+  ### **Git Blame**
   
   <img width="1099" height="732" alt="image" src="https://github.com/user-attachments/assets/26e98263-95af-4736-8931-bf13c7537c90" />
 
