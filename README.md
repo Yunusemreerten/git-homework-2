@@ -19,34 +19,43 @@
 # 2. Tasks Completed (a → z3)
 
 Below are all required tasks from the assignment, completed step-by-step with screenshots and explanations.
+
 ---
+
 ## a) Created remote repository
 An empty public GitHub repository named **git-homework-2** was created.
 
+
 ---
----
+
 ## b) Cloned the empty repository
 
   git clone https://github.com/Yunusemreerten/git-homework-2.git
+  
 ---
+
 ### **c) Created a Java project inside the repo**
 NetBeans → New Project → Java Application → saved directly inside cloned folder.
 
   NetBeans → New Project → Java Application
 
   Project placed directly inside the cloned repository folder.
+  
 ---
+
 ### **d) Initial commit (empty project)**
   git add .
   git commit -m "Initial empty Java project"
   <img width="878" height="823" alt="2  commit" src="https://github.com/user-attachments/assets/2c828f4c-2640-4b43-8131-3e4ac924e1c8" />
 
 ---
+
 ### **e) Added simple code (array creation & printing)**
 
   <img width="1876" height="958" alt="2  commit netbeans kodu" src="https://github.com/user-attachments/assets/d6b89731-a003-4f74-b354-4c03e66f4331" />
 
 ---
+
 ### **f) Commit simple code**
   git add .
   git commit -m "Add basic table creation and print elements"
@@ -96,6 +105,7 @@ Output included commits:
   Initialize with random values
 
   Sort elements
+  
 ---
 
 ### **l) Viewed annotations (git blame)**
@@ -112,6 +122,7 @@ Output included commits:
 
 
 ---
+
 ### **m) Checked out older revisions**
 
   git checkout 950cc62
@@ -134,6 +145,7 @@ Output included commits:
   Added a temporary print line.
 
   Verified using git status.
+  
 ---
 
 ### **o) Reverted commit**
@@ -152,6 +164,7 @@ Output included commits:
   <img width="434" height="244" alt="o maddesinin b şıkkını üçüncu adımın devamı onay verdiğimiz için kaydetti dosyayı" src="https://github.com/user-attachments/assets/bfbfe80d-d15e-4897-8809-b894d698205f" />
   
 ---
+
 ### **p) Pushed changes**
 
   git push origin main
