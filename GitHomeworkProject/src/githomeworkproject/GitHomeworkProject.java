@@ -28,7 +28,7 @@ public class GitHomeworkProject {
         System.out.println(Arrays.toString(numbers));
         System.out.println("Line from ME and FRIEND");
 
-
+    }
     public static void bubbleSort(int[] arr) {
         boolean swapped;
         do {
