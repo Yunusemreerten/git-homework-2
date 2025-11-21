@@ -97,6 +97,7 @@ Showed which commit changed which lines.
 <img width="1115" height="911" alt="k adımı 2" src="https://github.com/user-attachments/assets/9d2c22f5-1570-46e3-8de3-44683a3ff8fb" />
 
 
+
 m) Checked out old commits
 git checkout 950cc62
 <img width="559" height="376" alt="M maddesi  different revision’a geçme (git checkout)" src="https://github.com/user-attachments/assets/7e4451bb-85b5-4354-b4fa-8270df1a4c2d" />
