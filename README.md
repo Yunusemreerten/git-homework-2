@@ -72,6 +72,7 @@ git commit -m "Sort table elements using Arrays.sort"
 
 k) Viewed commit history
 git log --oneline --graph
+
 <img width="579" height="138" alt="k adımı için geçmişe bakıyoruz" src="https://github.com/user-attachments/assets/6f4af6d4-3a58-4796-9c5f-b01a8e8d5b1c" />
 
 
@@ -89,6 +90,7 @@ l) Viewed annotations (git blame)
 git blame GitHomeworkProject.java
 
 <img width="571" height="359" alt="l adımı " src="https://github.com/user-attachments/assets/8c5f208e-704f-4bec-a8de-1fcd2af9154a" />
+
 <img width="614" height="376" alt="l adımının hepsi" src="https://github.com/user-attachments/assets/c35bd9f8-07e2-42c2-8940-39e40df46afb" />
 
 
@@ -101,6 +103,7 @@ Showed which commit changed which lines.
 m) Checked out old commits
 git checkout 950cc62
 <img width="559" height="376" alt="M maddesi  different revision’a geçme (git checkout)" src="https://github.com/user-attachments/assets/7e4451bb-85b5-4354-b4fa-8270df1a4c2d" />
+
 <img width="523" height="156" alt="m den sonra geri anadala dönmek için git checkout main" src="https://github.com/user-attachments/assets/e0de5b1c-b789-4884-bf02-044fadd87533" />
 
 
@@ -124,6 +127,7 @@ o) Reverted commit
 <img width="1912" height="914" alt="o maddesinin b şıkkını ilk adım" src="https://github.com/user-attachments/assets/d7ad876f-9be3-4d96-81ee-e9204121161c" />
 
 <img width="576" height="92" alt="o maddesinin b şıkkını ikinci adım" src="https://github.com/user-attachments/assets/65b541c1-626a-4b88-8eae-5ca4c1661d6e" />
+
 <img width="1850" height="903" alt="o maddesinin b şıkkını üçüncu adım" src="https://github.com/user-attachments/assets/047d770b-f384-4c19-9579-042c31047d54" />
 
 
@@ -132,29 +136,35 @@ Editor opened → commit message confirmed.
 
 p) Pushed all changes to remote
 git push origin main
+
 <img width="443" height="177" alt="p maddesi" src="https://github.com/user-attachments/assets/3f634115-75eb-466d-ad76-4eef12e4cb03" />
 
 r) Deleted local repo
+
 <img width="764" height="143" alt="r adımı repoyu sildim" src="https://github.com/user-attachments/assets/fba43d4a-6ffe-469d-b52a-cdaaa72a32c6" />
 
 Folder removed manually from Windows Explorer.
 
 s) Cloned the repo again
 git clone https://github.com/Yunusemreerten/git-homework-2.git
+
 <img width="656" height="242" alt="s adımıTekrardan git clone ile geri getirdim" src="https://github.com/user-attachments/assets/a030d496-f55c-4188-92ae-7477c9ddb3c9" />
 
 
 t) Created tag/release
+
 <img width="1905" height="741" alt="t maddesi için tag ekledim" src="https://github.com/user-attachments/assets/d276ad0e-a73f-42a0-82f6-19a5dae9b5ad" />
 
 git tag v1.0
 git push origin v1.0
 git checkout v1.0
 git checkout main
+
 <img width="573" height="404" alt="t maddesi Tag’e geçiş yap (checkout) yaptık ve sonra da tekrar maine döndük " src="https://github.com/user-attachments/assets/d7be7bc1-c70a-4143-ba38-35009f515180" />
 
 u) Created a new branch
 git checkout -b better-sorting
+
 <img width="557" height="233" alt="u ve w adımları" src="https://github.com/user-attachments/assets/2b81b6a0-caa1-49c0-a147-e3d42cc500a0" />
 
 w) Switched between branches
@@ -166,7 +176,9 @@ x) Improved code in branch
 Added new sorting algorithm (bubble sort).
 
 Replaced Arrays.sort with bubbleSort().
+
 <img width="1870" height="975" alt="x adımı Branch üzerinde kodu geliştir bubble sort yaptık " src="https://github.com/user-attachments/assets/1cf1bba9-4b4e-4c21-aec9-6e3ee83f4047" />
+
 <img width="716" height="160" alt="x adımı commit etme kodu" src="https://github.com/user-attachments/assets/c2b93faa-4244-45a0-b483-dfe3737c517f" />
 
 
@@ -174,11 +186,13 @@ y) Merged new branch into master
 git checkout main
 git merge better-sorting
 git push origin main
+
 <img width="588" height="361" alt="y adımı  Branch’i main’e merge et" src="https://github.com/user-attachments/assets/88a3c851-735f-43dd-b9c5-066a7dba3d76" />
 
 z) Shared repo with friend
 
 Added friend zelihainan as collaborator on GitHub.
+
 <img width="1831" height="889" alt="z adımı için arkadaş ekleme" src="https://github.com/user-attachments/assets/a445c3a7-15e8-4708-8504-148fe8e614f4" />
 
 z1) Produced a merge conflict
@@ -204,9 +218,11 @@ z3) Sent final repo URL & this report to teacher
 
 3. Screenshots
   Commit History
+
    <img width="702" height="232" alt="image" src="https://github.com/user-attachments/assets/0e4ee0b2-792a-42e4-a400-e336b3d576c7" />
    
   Git Blame Output
+  
   <img width="1099" height="732" alt="image" src="https://github.com/user-attachments/assets/26e98263-95af-4736-8931-bf13c7537c90" />
 
    
