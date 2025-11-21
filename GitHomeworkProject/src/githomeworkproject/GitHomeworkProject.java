@@ -4,13 +4,21 @@
  */
 package githomeworkproject;
 
+import java.util.Random;
+
 public class GitHomeworkProject {
 
     public static void main(String[] args) {
 
         int[] numbers = new int[5];
+        Random random = new Random();
 
-        System.out.println("Initial table values:");
+        // initialize table with random values
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = random.nextInt(100); // 0–99
+        }
+
+        System.out.println("Random table values:");
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("numbers[" + i + "] = " + numbers[i]);
         }
