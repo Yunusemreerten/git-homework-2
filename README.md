@@ -1,27 +1,20 @@
-GIT Homework 2 – Report
+# GIT Homework 2 – Report
 
-Student: Yunus Emre Erten
+**Student:** Yunus Emre Erten  
+**Course:** GIT  
+**Date:** 04.12.2025  
+**Repository URL:**  
+ https://github.com/Yunusemreerten/git-homework-2
 
-Course: GIT
+---
 
-Date: 04.12.2025
+# 1. Environment
 
-Repository URL:
-
-https://github.com/Yunusemreerten/git-homework-2
-
-1. Environment
-
-  OS: Windows 10
-
-  IDE: NetBeans 12
-
-  Languages: Java
-
-  Git Version: 2.45.1.windows.1
-
-  Tools used: Git CLI, GitHub, NetBeans Git integration
-
+- **OS:** Windows 11  
+- **IDE:** NetBeans 12  
+- **Language:** Java  
+- **Git Version:** 2.45.1.windows.1  
+- **Tools Used:** Git CLI, GitHub, NetBeans Git integration  
 2. Tasks Completed (a → z3)
 
 a) Created a remote repository
