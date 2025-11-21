@@ -4,17 +4,16 @@
  */
 package githomeworkproject;
 
-/**
- *
- * @author licat
- */
 public class GitHomeworkProject {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        int[] numbers = new int[5];
+
+        System.out.println("Initial table values:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("numbers[" + i + "] = " + numbers[i]);
+        }
     }
-    
 }
+
