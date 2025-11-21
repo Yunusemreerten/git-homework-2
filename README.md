@@ -23,7 +23,8 @@ https://github.com/Yunusemreerten/git-homework-2
   Tools used: Git CLI, GitHub, NetBeans Git integration
 
 2. Tasks Completed (a → z3)
-  a) Created a remote repository
+
+a) Created a remote repository
 
   New empty public repo created on GitHub named git-homework-2.
 
