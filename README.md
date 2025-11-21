@@ -113,15 +113,18 @@ Output included commits:
 
 ---
 ### **m) Checked out older revisions**
+
   git checkout 950cc62
+  
   <img width="559" height="376" alt="M maddesi  different revision’a geçme (git checkout)" src="https://github.com/user-attachments/assets/7e4451bb-85b5-4354-b4fa-8270df1a4c2d" />
 
-  <img width="523" height="156" alt="m den sonra geri anadala dönmek için git checkout main" src="https://github.com/user-attachments/assets/e0de5b1c-b789-4884-bf02-044fadd87533" />
-
-
+  
   Then returned:
+  
+  <img width="523" height="156" alt="m den sonra geri anadala dönmek için git checkout main" src="https://github.com/user-attachments/assets/b47cb487-bccb-4814-8383-2dde1e08cc46" />
 
   git checkout main
+  
 ---
 
 ### **n) Added changes without committing**
