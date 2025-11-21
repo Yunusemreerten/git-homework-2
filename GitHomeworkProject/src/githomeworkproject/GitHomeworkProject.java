@@ -4,6 +4,7 @@
  */
 package githomeworkproject;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class GitHomeworkProject {
@@ -13,15 +14,19 @@ public class GitHomeworkProject {
         int[] numbers = new int[5];
         Random random = new Random();
 
-        // initialize table with random values
+        // initialize with random values
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = random.nextInt(100); // 0–99
+            numbers[i] = random.nextInt(100);
         }
 
-        System.out.println("Random table values:");
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println("numbers[" + i + "] = " + numbers[i]);
-        }
+        System.out.println("Before sort:");
+        System.out.println(Arrays.toString(numbers));
+
+        // sort
+        Arrays.sort(numbers);
+
+        System.out.println("After sort:");
+        System.out.println(Arrays.toString(numbers));
     }
 }
 
