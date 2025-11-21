@@ -14,14 +14,19 @@
 - **IDE:** NetBeans 12  
 - **Language:** Java  
 - **Git Version:** 2.45.1.windows.1  
-- **Tools Used:** Git CLI, GitHub, NetBeans Git integration  
-2. Tasks Completed (a → z3)
+- **Tools Used:** Git CLI, GitHub, NetBeans Git integration
+  
+# 2. Tasks Completed (a → z3)
 
-a) Created a remote repository
+Below are all required tasks from the assignment, completed step-by-step with screenshots and explanations.
 
-  New empty public repo created on GitHub named git-homework-2.
+## a) Created remote repository
+An empty public GitHub repository named **git-homework-2** was created.
 
-b) Cloned the empty repository
+---
+
+## b) Cloned the empty repository
+
   git clone https://github.com/Yunusemreerten/git-homework-2.git
 
 c) Created a local project in the cloned repo
